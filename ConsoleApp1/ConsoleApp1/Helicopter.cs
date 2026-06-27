@@ -1,6 +1,6 @@
-using TransportChallenge;
+﻿using TransportChallenge;
 
-public class Airplane : Vehicle, IFlyable
+public class Helicopter : Vehicle, IFlyable, IDriveable
 {
     public override string Move()
     {

@@ -1,5 +1,6 @@
 namespace TransportChallenge;
 
-public interface ITransport
+public abstract class Transport
 {
+    public abstract string Name { get; }
 }
